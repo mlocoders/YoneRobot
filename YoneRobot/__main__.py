@@ -92,8 +92,9 @@ buttons = [
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
-]
-
+ 
+[InlineKeyboardButton(
+            text="CREATOR", url=f"https://t.me/mbbslover" ), ]
 
 HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` [senorita❤️](https://telegra.ph/file/275a37a8de5a5cb0723c2.jpg) 
