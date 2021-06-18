@@ -84,18 +84,17 @@ buttons = [
             text="➕️ ᴀᴅᴅ senorita ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MissSenorita_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
+        InlineKeyboardButton(text="creator", url=f"https://t.me/mbbs_lover"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/python_pirates"
         ),
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
-    ],
- 
-InlineKeyboardButton(
-            text="CREATOR", url=f"https://t.me/mbbslover" ), ]
+    ], 
+] 
 
+ 
 HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` [senorita❤️](https://telegra.ph/file/275a37a8de5a5cb0723c2.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
