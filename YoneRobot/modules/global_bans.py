@@ -44,7 +44,7 @@ from YoneRobot.modules.helper_funcs.misc import send_to_list
 GBAN_ENFORCE_GROUP = 6
 
 GBAN_ERRORS = {
-    "User is an administrator of the chat",
+    "sed this mc is an administrator of the chat",
     "Chat not found",
     "Not enough rights to restrict/unrestrict chat member",
     "User_not_participant",
@@ -287,7 +287,7 @@ def ungban(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.."
+            "abee bsdk id to btade jisko ban krna hai achee se ya tag hi krde.."
         )
         return
 
