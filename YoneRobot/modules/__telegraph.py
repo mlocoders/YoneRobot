@@ -9,7 +9,7 @@ from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 from telethon import events
 
-from DaisyX.services.telethon import tbot as borg
+ 
 
 telegraph = Telegraph()
  
