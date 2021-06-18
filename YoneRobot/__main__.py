@@ -93,7 +93,7 @@ buttons = [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
  
-[InlineKeyboardButton(
+InlineKeyboardButton(
             text="CREATOR", url=f"https://t.me/mbbslover" ), ]
 
 HELP_STRINGS = """
