@@ -87,15 +87,15 @@ buttons = [
         InlineKeyboardButton(
             text="🔱✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪", url="t.me/MLO_EMPIRE"),
     ],
-    [ InlineKeyboardButton(text="MY OWNER⚡️", url=f"https://t.me/mbbs_lover"),
+    [ InlineKeyboardButton(text="MY OWNER⚡️", url="t.me/mbbs_lover"),
         InlineKeyboardButton(
-            text="♦️SUPPORT CHAT💬", url=f"t.me/SENORITA_SUPPORT"),
+            text="♦️SUPPORT CHAT💬", url="t.me/SENORITA_SUPPORT"),
         
     ],
     [
-        InlineKeyboardButton(text="🔴SPAMREPORTER🔴", url=f"https://t.me/spamreporterr"),
+        InlineKeyboardButton(text="🔴SPAMREPORTER🔴", url="t.me/spamreporterr"),
         InlineKeyboardButton(
-            text="🔥◾️NETWORK◾️🔥", url=f"t.me/MLO_NETWORK"),
+            text="🔥◾️NETWORK◾️🔥", url="t.me/MLO_NETWORK"),
     ],
     [
         InlineKeyboardButton(text="◼️HELPS AND COMMANDS❔", callback_data="he◼️HELPS AND COMMANDS❔lp_back"),
