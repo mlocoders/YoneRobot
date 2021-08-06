@@ -75,7 +75,6 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 hey friend [✨🌹](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg), ɪᴍ senorita a unique and quality group managing bot go to the buttons below for more info.
-  DESIRE THE BEST, WIN THE BEST AND USE THE BEST THATS WHY SENORITA IS HERE DEAR💜
 `SENORITA' is here to manage your chats with her skills type /help to know about my functions
 """
 buttons = [
