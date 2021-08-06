@@ -74,36 +74,43 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-hey buddy [✨🌹](https://telegra.ph/file/e66b62cd2bf70f5dde490.jpg), ɪᴍ Senorita ᴀ new era modified group managing bot with powerful tools.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ the ɢʀᴏᴜᴘꜱ! type` /help   
+hey friend [✨🌹](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg), ɪᴍ senorita a unique and quality group managing bot go to the buttons below for more info.
+  DESIRE THE BEST, WIN THE BEST AND USE THE BEST THATS WHY SENORITA IS HERE DEAR💜
+`SENORITA' is here to manage your chats with her skills type /help to know about my functions
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ senorita ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MissSenorita_bot?startgroup=true"),
+            text="🔲ᴀᴅᴅ SENORITA ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ🔲", url="t.me/MissSenorita_bot?startgroup=true"),
     ],
 [
         InlineKeyboardButton(
-            text="✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪", url="t.me/MLO_EMPIRE"),
+            text="🔱✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪", url="t.me/MLO_EMPIRE"),
     ],
     [
-        InlineKeyboardButton(text="MY CREATOR⚡️", url=f"https://t.me/mbbs_lover"),
+        InlineKeyboardButton(text="MY OWNER⚡️", url=f"https://t.me/mbbs_lover"),
         InlineKeyboardButton(
-            text="SUPPORT CHAT☀️", url=f"t.me/SENORITA_SUPPORT"
+            text="♦️SUPPORT CHAT💬", url=f"t.me/SENORITA_SUPPORT"
+        ),
+    ],
+ [
+        InlineKeyboardButton(text="🔴SPAMREPORTER🔴", url=f"https://t.me/spamreporterr"),
+        InlineKeyboardButton(
+            text="🔥◾️NETWORK◾️🔥", url=f"t.me/MLO_NETWORK"
         ),
     ],
     [
-        InlineKeyboardButton(text="HELPS AND COMMANDS🌻", callback_data="help_back"),
+        InlineKeyboardButton(text="◼️HELPS AND COMMANDS❔", callback_data="help_back"),
     ], 
 ] 
 
  
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [senorita❤️](https://telegra.ph/file/275a37a8de5a5cb0723c2.jpg) 
+`ʜɪ.. ɪ'ᴍ` [senorita❤️](https://telegra.ph/file/8a65bbd1968902d7b16e4.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-yone_IMG = "https://telegra.ph/file/275a37a8de5a5cb0723c2.jpg"
+yone_IMG = "https://telegra.ph/file/8a65bbd1968902d7b16e4.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @kittu5588 \
@@ -353,25 +360,7 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *yone*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_yone's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/noob-kittu/YoneRobot).
-                 \n\nIf you have any question about yone, let us know at .""",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="Back", callback_data="yone_back")
-                 ]
-                ]
-            ),
+            text="ntg here"
         )
     elif query.data == "yone_back":
         query.message.edit_text(
@@ -388,7 +377,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *yone*
+            text=""" Hi..🤗 I'm *ntg*
                  \nHere is the [Source Code](https://github.com/Noob-kittu/YoneRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
