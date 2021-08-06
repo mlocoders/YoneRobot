@@ -83,14 +83,18 @@ buttons = [
         InlineKeyboardButton(
             text="➕️ ᴀᴅᴅ senorita ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/MissSenorita_bot?startgroup=true"),
     ],
-    [
-        InlineKeyboardButton(text="creator", url=f"https://t.me/mbbs_lover"),
+[
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/python_pirates"
+            text="✪𝗠𝗟𝗢 𝗘𝗠𝗣𝗜𝗥𝗘✪", url="t.me/MLO_EMPIRE"),
+    ],
+    [
+        InlineKeyboardButton(text="MY CREATOR⚡️", url=f"https://t.me/mbbs_lover"),
+        InlineKeyboardButton(
+            text="SUPPORT CHAT☀️", url=f"t.me/SENORITA_SUPPORT"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="HELPS AND COMMANDS🌻", callback_data="help_back"),
     ], 
 ] 
 
