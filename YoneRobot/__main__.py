@@ -78,7 +78,6 @@ hey friend [✨🌹](https://telegra.ph/file/793225d9eb9bd01766bd3.jpg), ɪᴍ s
   DESIRE THE BEST, WIN THE BEST AND USE THE BEST THATS WHY SENORITA IS HERE DEAR💜
 `SENORITA' is here to manage your chats with her skills type /help to know about my functions
 """
-
 buttons = [
     [
         InlineKeyboardButton(
@@ -91,8 +90,7 @@ buttons = [
     [
         InlineKeyboardButton(text="MY OWNER⚡️", url=f"https://t.me/mbbs_lover"),
         InlineKeyboardButton(
-            text="♦️SUPPORT CHAT💬", url=f"t.me/SENORITA_SUPPORT"
-        ),
+            text="♦️SUPPORT CHAT💬", url=f"t.me/SENORITA_SUPPORT"),
     ],
  [
         InlineKeyboardButton(text="🔴SPAMREPORTER🔴", url=f"https://t.me/spamreporterr"),
